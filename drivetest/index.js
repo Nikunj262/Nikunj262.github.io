@@ -16,7 +16,7 @@ const driveTestRouter = require('./routers/driveTestRouter');
 const examinerRouter = require("./routers/examinerRouter");
 
 // connecting to database
-mongoose.connect('mongodb+srv://admin:admin@cluster0.bofkigt.mongodb.net/testbook?retryWrites=true&w=majority');
+mongoose.connect('your mongodb connection link');
 //// Create the database "blogapp" if it doesn't exist.
 let port = process.env.PORT;
 if (port == null || port == "") {
